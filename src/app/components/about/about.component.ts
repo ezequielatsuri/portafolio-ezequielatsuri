@@ -6,79 +6,75 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <div class="min-h-screen bg-gradient-to-br from-blue-50 to-white py-16">
+    <div class="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-cyan-500 py-16">
       <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-16">
-          <h1 class="text-5xl font-bold text-gray-800 mb-4">Sobre <span class="text-blue-600">Mí</span></h1>
-          <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+          <h1 class="text-5xl font-bold text-white mb-4">Sobre <span class="text-cyan-300">Mí</span></h1>
+          <div class="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-400 mx-auto"></div>
         </div>
         
         <div class="grid lg:grid-cols-2 gap-16 items-center">
           <div class="space-y-8">
             <div>
-              <h2 class="text-3xl font-bold text-gray-800 mb-6">¿Quién soy?</h2>
-              <p class="text-lg text-gray-600 leading-relaxed mb-6">
-                Soy un desarrollador apasionado por crear soluciones digitales innovadoras que transforman ideas en realidades. 
+              <h2 class="text-3xl font-bold text-white mb-6">¿Quién soy?</h2>
+              <p class="text-lg text-blue-100 leading-relaxed mb-6">
+                Soy un <strong class="text-cyan-300">Estudiante de Ingeniería en Sistemas Computacionales</strong> con vocación por el desarrollo de software y el aprendizaje continuo. 
                 Me especializo en desarrollo web full-stack con un enfoque en experiencias de usuario excepcionales.
               </p>
-              <p class="text-lg text-gray-600 leading-relaxed">
+              <p class="text-lg text-blue-100 leading-relaxed mb-6">
+                Me mantengo actualizado con las últimas tendencias tecnológicas a través de mi formación académica y plataformas educativas como <strong class="text-cyan-300">Platzi</strong>. 
+                Soy una persona proactiva, curiosa y comprometida con mi desarrollo profesional.
+              </p>
+              <p class="text-lg text-blue-100 leading-relaxed">
                 Mi objetivo es crear aplicaciones que no solo funcionen perfectamente, 
-                sino que también inspiren y faciliten la vida de las personas.
+                sino que también inspiren y faciliten la vida de las personas. 
+                Estoy en busca de oportunidades para aplicar mis conocimientos en proyectos reales que generen impacto.
               </p>
             </div>
             
-            <div class="grid grid-cols-2 gap-6">
-              <div class="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
-                <div class="text-3xl font-bold text-blue-600 mb-2">3+</div>
-                <div class="text-gray-600">Años de Experiencia</div>
-              </div>
-              <div class="bg-white p-6 rounded-xl shadow-lg border border-blue-100">
-                <div class="text-3xl font-bold text-blue-600 mb-2">20+</div>
-                <div class="text-gray-600">Proyectos Exitosos</div>
-              </div>
-            </div>
+            
           </div>
           
-          <div class="bg-white p-8 rounded-2xl shadow-xl border border-blue-100">
-            <h3 class="text-2xl font-bold text-gray-800 mb-8 text-center">Mis Especialidades</h3>
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20">
+            <h3 class="text-2xl font-bold text-white mb-8 text-center">Mis Especialidades</h3>
             <div class="space-y-6">
-              <div class="flex items-center p-4 bg-blue-50 rounded-xl">
-                <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
+              <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/10">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center mr-4">
                   <span class="text-white text-xl">⚛️</span>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800">Desarrollo Frontend</h4>
-                  <p class="text-gray-600">Angular, React, Vue.js</p>
+                  <h4 class="font-semibold text-white">Desarrollo Frontend</h4>
+                  <p class="text-blue-100">Next.js, React</p>
                 </div>
               </div>
               
-              <div class="flex items-center p-4 bg-blue-50 rounded-xl">
-                <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
+              <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/10">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center mr-4">
                   <span class="text-white text-xl">🔧</span>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800">Desarrollo Backend</h4>
-                  <p class="text-gray-600">Node.js, Express, Python</p>
+                  <h4 class="font-semibold text-white">Desarrollo Backend</h4>
+                  <p class="text-blue-100">Spring Boot, Laravel, Java</p>
                 </div>
               </div>
               
-              <div class="flex items-center p-4 bg-blue-50 rounded-xl">
-                <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
+              <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/10">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center mr-4">
                   <span class="text-white text-xl">🗄️</span>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800">Bases de Datos</h4>
-                  <p class="text-gray-600">MongoDB, PostgreSQL, MySQL</p>
+                  <h4 class="font-semibold text-white">Bases de Datos</h4>
+                  <p class="text-blue-100">MySQL</p>
                 </div>
               </div>
               
-              <div class="flex items-center p-4 bg-blue-50 rounded-xl">
-                <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
+              <div class="flex items-center p-4 bg-white/10 rounded-xl border border-white/10">
+                <div class="w-12 h-12 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center mr-4">
                   <span class="text-white text-xl">🎨</span>
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800">Diseño UX/UI</h4>
-                  <p class="text-gray-600">Responsive, Accesible, Moderno</p>
+                  <h4 class="font-semibold text-white">Diseño UX/UI</h4>
+                  <p class="text-blue-100">Responsive, Accesible, Moderno</p>
                 </div>
               </div>
             </div>

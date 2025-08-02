@@ -43,22 +43,6 @@ import { RouterModule } from '@angular/router';
                   Contactar
                 </a>
               </div>
-              
-              <!-- Stats -->
-              <div class="grid grid-cols-3 gap-6 pt-8">
-                <div class="text-center">
-                  <div class="text-3xl font-bold text-cyan-300">3+</div>
-                  <div class="text-blue-100 text-sm">Años de Experiencia</div>
-                </div>
-                <div class="text-center">
-                  <div class="text-3xl font-bold text-cyan-300">20+</div>
-                  <div class="text-blue-100 text-sm">Proyectos Completados</div>
-                </div>
-                <div class="text-center">
-                  <div class="text-3xl font-bold text-cyan-300">15+</div>
-                  <div class="text-blue-100 text-sm">Tecnologías Dominadas</div>
-                </div>
-              </div>
             </div>
             
             <!-- Hero Image/Illustration -->
@@ -102,17 +86,17 @@ import { RouterModule } from '@angular/router';
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
               <div class="bg-gradient-to-br from-blue-500 to-purple-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
-                  <div class="text-6xl mb-4">🚀</div>
-                  <h3 class="text-2xl font-bold">E-Commerce Platform</h3>
+                  <div class="text-6xl mb-4">💼</div>
+                  <h3 class="text-2xl font-bold">Plataforma de Servicios</h3>
                 </div>
               </div>
               <div class="bg-white p-6">
-                <h4 class="font-bold text-gray-800 mb-2">Tienda Online Completa</h4>
-                <p class="text-gray-600 text-sm mb-4">Plataforma de comercio electrónico con carrito de compras, pagos y panel administrativo.</p>
+                <h4 class="font-bold text-gray-800 mb-2">Promoción y Contratación</h4>
+                <p class="text-gray-600 text-sm mb-4">Aplicación web para la promoción y contratación de servicios profesionales.</p>
                 <div class="flex flex-wrap gap-2 mb-4">
-                  <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Angular</span>
-                  <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">Node.js</span>
-                  <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">MongoDB</span>
+                  <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Next.js</span>
+                  <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">Spring Boot</span>
+                  <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">MySQL</span>
                 </div>
                 <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors">
                   Ver Proyecto →
@@ -124,17 +108,17 @@ import { RouterModule } from '@angular/router';
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
               <div class="bg-gradient-to-br from-green-500 to-teal-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
-                  <div class="text-6xl mb-4">📱</div>
-                  <h3 class="text-2xl font-bold">App de Gestión</h3>
+                  <div class="text-6xl mb-4">💬</div>
+                  <h3 class="text-2xl font-bold">Chat en Tiempo Real</h3>
                 </div>
               </div>
               <div class="bg-white p-6">
-                <h4 class="font-bold text-gray-800 mb-2">Sistema de Inventarios</h4>
-                <p class="text-gray-600 text-sm mb-4">Aplicación web para gestión de inventarios con reportes y análisis en tiempo real.</p>
+                <h4 class="font-bold text-gray-800 mb-2">Sistema de Mensajería</h4>
+                <p class="text-gray-600 text-sm mb-4">Aplicación de chat con funcionalidades de mensajería en tiempo real.</p>
                 <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Laravel</span>
                   <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">React</span>
-                  <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">Express</span>
-                  <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">PostgreSQL</span>
+                  <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">MySQL</span>
                 </div>
                 <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors">
                   Ver Proyecto →
@@ -146,17 +130,17 @@ import { RouterModule } from '@angular/router';
             <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
               <div class="bg-gradient-to-br from-purple-500 to-pink-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
-                  <div class="text-6xl mb-4">🎯</div>
-                  <h3 class="text-2xl font-bold">Dashboard Analytics</h3>
+                  <div class="text-6xl mb-4">🔧</div>
+                  <h3 class="text-2xl font-bold">Gestión de Taller</h3>
                 </div>
               </div>
               <div class="bg-white p-6">
-                <h4 class="font-bold text-gray-800 mb-2">Panel de Control</h4>
-                <p class="text-gray-600 text-sm mb-4">Dashboard interactivo con gráficos y métricas para análisis de datos empresariales.</p>
+                <h4 class="font-bold text-gray-800 mb-2">Sistema Mecánico</h4>
+                <p class="text-gray-600 text-sm mb-4">Aplicación para la gestión completa de un taller mecánico automotriz.</p>
                 <div class="flex flex-wrap gap-2 mb-4">
-                  <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">Vue.js</span>
-                  <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full">Python</span>
-                  <span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Redis</span>
+                  <span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">Laravel</span>
+                  <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full">Blade</span>
+                  <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">MySQL</span>
                 </div>
                 <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors">
                   Ver Proyecto →

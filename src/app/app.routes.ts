@@ -27,6 +27,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/contact/contact.page').then(m => m.ContactPage)
   },
   {
+    path: 'privacy',
+    loadComponent: () => import('./components/privacy/privacy.component').then(m => m.PrivacyComponent)
+  },
+  {
     path: '**',
     redirectTo: '/home'
   }
