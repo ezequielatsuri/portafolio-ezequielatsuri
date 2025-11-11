@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/portafolio-ezequielatsuri": {},
+    "/portafolio-ezequielatsuri/about": {},
+    "/portafolio-ezequielatsuri/contact": {},
+    "/portafolio-ezequielatsuri/home": {},
+    "/portafolio-ezequielatsuri/privacy": {},
+    "/portafolio-ezequielatsuri/projects": {},
+    "/portafolio-ezequielatsuri/skills": {}
+  }
+}
