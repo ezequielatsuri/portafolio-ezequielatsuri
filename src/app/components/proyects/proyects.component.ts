@@ -36,12 +36,14 @@ import { CommonModule } from '@angular/common';
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">MySQL</span>
               </div>
               <div class="flex space-x-3">
-                <button class="flex-1 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-4 py-3 rounded-xl font-semibold transition-all duration-300">
-                  Ver Demo
-                </button>
-                <button class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300">
+                <a 
+                  href="https://github.com/ezequielatsuri/web_app_services" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                >
                   Código
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -58,9 +60,9 @@ import { CommonModule } from '@angular/common';
               </ng-container>
             </div>
             <div class="p-8">
-              <h3 class="text-2xl font-bold text-white mb-4">Chat en Tiempo Real</h3>
+              <h3 class="text-2xl font-bold text-white mb-4">Chat</h3>
               <p class="text-blue-100 mb-6 leading-relaxed">
-                Aplicación de chat con funcionalidades de mensajería en tiempo real.
+                Aplicación de chat con funcionalidades de mensajería.
               </p>
               <div class="flex flex-wrap gap-2 mb-6">
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">Laravel</span>
@@ -68,12 +70,15 @@ import { CommonModule } from '@angular/common';
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">MySQL</span>
               </div>
               <div class="flex space-x-3">
-                <button class="flex-1 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-4 py-3 rounded-xl font-semibold transition-all duration-300">
-                  Ver Demo
-                </button>
-                <button class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300">
+                
+                <a 
+                  href="https://github.com/ezequielatsuri/chatAplication" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                >
                   Código
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -95,12 +100,14 @@ import { CommonModule } from '@angular/common';
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">MySQL</span>
               </div>
               <div class="flex space-x-3">
-                <button class="flex-1 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-4 py-3 rounded-xl font-semibold transition-all duration-300">
-                  Ver Demo
-                </button>
-                <button class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300">
+                <a 
+                  href="https://github.com/ezequielatsuri/TallerMecanico" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                >
                   Código
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -122,12 +129,15 @@ import { CommonModule } from '@angular/common';
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">JPA</span>
               </div>
               <div class="flex space-x-3">
-                <button class="flex-1 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-4 py-3 rounded-xl font-semibold transition-all duration-300">
-                  Ver Demo
-                </button>
-                <button class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300">
+                <a 
+                  href="https://github.com/ezequielatsuri/To-do-list" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                >
                   Código
-                </button>
+                </a>
+
               </div>
             </div>
           </div>
@@ -156,12 +166,14 @@ import { CommonModule } from '@angular/common';
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">Streamlit</span>
               </div>
               <div class="flex space-x-3">
-                <button class="flex-1 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-4 py-3 rounded-xl font-semibold transition-all duration-300">
-                  Ver Demo
-                </button>
-                <button class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300">
+                <a 
+                  href="https://github.com/ezequielatsuri/dashboard-dinamico" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                >
                   Código
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -185,12 +197,14 @@ import { CommonModule } from '@angular/common';
                 <span class="px-3 py-1 bg-white/20 text-white text-sm rounded-full font-medium">JPA</span>
               </div>
               <div class="flex space-x-3">
-                <button class="flex-1 bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-4 py-3 rounded-xl font-semibold transition-all duration-300">
-                  Ver Demo
-                </button>
-                <button class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300">
+                 <a 
+                  href="https://github.com/ezequielatsuri/App-Salud" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                >
                   Código
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -201,9 +215,9 @@ import { CommonModule } from '@angular/common';
   styles: []
 })
 export class ProyectsComponent {
-  proyecto1Images = ['/images/proyecto1.1.png', '/images/proyecto1.2.png', '/images/proyecto1.3.png'];
-  proyecto2Images = ['/images/proyecto2.1.png', '/images/proyecto2.2.png', '/images/proyecto2.3.png'];
-  proyecto5Images = ['/images/proyecto5.1.png', '/images/proyecto5.2.png', '/images/proyecto5.3.png'];
+  proyecto1Images = ['assets/images/proyecto1.1.png', 'assets/images/proyecto1.2.png', 'assets/images/proyecto1.3.png'];
+  proyecto2Images = ['assets/images/proyecto2.1.png', 'assets/images/proyecto2.2.png', 'assets/images/proyecto2.3.png'];
+  proyecto5Images = ['assets/images/proyecto5.1.png', 'assets/images/proyecto5.2.png', 'assets/images/proyecto5.3.png'];
   proyecto1Index = 0;
   proyecto2Index = 0;
   proyecto5Index = 0;

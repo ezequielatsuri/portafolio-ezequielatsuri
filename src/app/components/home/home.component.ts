@@ -22,7 +22,7 @@ import { RouterModule } from '@angular/router';
                   Desarrollador Full Stack
                 </h2>
                 <p class="text-xl text-blue-50 leading-relaxed">
-                  Transformo ideas en experiencias digitales excepcionales. 
+                  Transformo ideas en experiencias digitales. 
                   Especializado en crear soluciones web innovadoras que conectan 
                   tecnología con creatividad.
                 </p>
