@@ -126,6 +126,6 @@ export class NavbarComponent {
 
   onMobileNavClick() {
     this.mobileMenuOpen = false;
-    window.scrollTo({ top: 0 });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

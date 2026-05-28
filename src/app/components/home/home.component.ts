@@ -61,7 +61,7 @@ import { RouterModule } from '@angular/router';
                     <p class="text-slate-200">Desarrollador Full Stack</p>
                   </div>
                   <div class="flex justify-center space-x-4">
-                    <div class="w-3 h-3 bg-cyan-400 rounded-full"></div>
+                    <div class="w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
                     <div class="w-3 h-3 bg-blue-400 rounded-full"></div>
                     <div class="w-3 h-3 bg-blue-300 rounded-full"></div>
                   </div>
