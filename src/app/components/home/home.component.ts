@@ -62,15 +62,15 @@ import { RouterModule } from '@angular/router';
                   </div>
                   <div class="flex justify-center space-x-4">
                     <div class="w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
-                    <div class="w-3 h-3 bg-blue-400 rounded-full"></div>
-                    <div class="w-3 h-3 bg-blue-300 rounded-full"></div>
+                    <div class="w-3 h-3 bg-blue-400 rounded-full animate-pulse"></div>
+                    <div class="w-3 h-3 bg-blue-300 rounded-full animate-pulse"></div>
                   </div>
                 </div>
               </div>
               
               <!-- Floating Elements -->
-              <div class="absolute -top-6 -right-6 w-10 h-10 bg-cyan-400/70 rounded-full blur-sm"></div>
-              <div class="absolute -bottom-6 -left-6 w-8 h-8 bg-blue-500/70 rounded-full blur-sm"></div>
+              <div class="absolute -top-6 -right-6 w-10 h-10 bg-cyan-400/70 rounded-full blur-sm animate-bounce"></div>
+              <div class="absolute -bottom-6 -left-6 w-8 h-8 bg-blue-500/70 rounded-full blur-sm animate-bounce"></div>
             </div>
           </div>
         </div>

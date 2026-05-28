@@ -36,7 +36,7 @@ import { CommonModule } from '@angular/common';
               </p>
               <div class="flex flex-wrap gap-2 mb-6">
                 <span class="px-3 py-1 bg-white/10 text-slate-100 text-sm rounded-full font-medium">Next.js</span>
-                <span class="px-3 py-1 bg-white/10 text-slate-100 text-sm rounded-full font-medium">Spring Boot</span>
+                <span class="px-3 py-1 bg-emerald-100 text-emerald-800 text-sm rounded-full font-medium">Spring Boot</span>
                 <span class="px-3 py-1 bg-white/10 text-slate-100 text-sm rounded-full font-medium">MySQL</span>
               </div>
               <div class="flex space-x-3">
