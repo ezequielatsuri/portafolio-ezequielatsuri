@@ -32,13 +32,13 @@ import { RouterModule } from '@angular/router';
               <div class="flex flex-col sm:flex-row gap-4">
                 <a 
                   routerLink="/projects" 
-                  class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 shadow-lg hover:shadow-xl text-center"
+                  class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-xl text-center"
                 >
                   Ver Proyectos
                 </a>
                 <a 
                   routerLink="/contact" 
-                  class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 text-center"
+                  class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg text-center"
                 >
                   Contactar
                 </a>
@@ -83,7 +83,7 @@ import { RouterModule } from '@angular/router';
           
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Project 1 -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl">
               <div class="bg-gradient-to-br from-blue-500 to-purple-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-6xl mb-4">💼</div>
@@ -105,7 +105,7 @@ import { RouterModule } from '@angular/router';
             </div>
 
             <!-- Project 2 -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl">
               <div class="bg-gradient-to-br from-green-500 to-teal-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-6xl mb-4">💬</div>
@@ -127,7 +127,7 @@ import { RouterModule } from '@angular/router';
             </div>
 
             <!-- Project 3 -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl">
               <div class="bg-gradient-to-br from-purple-500 to-pink-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-6xl mb-4">🔧</div>
@@ -152,7 +152,7 @@ import { RouterModule } from '@angular/router';
           <div class="text-center mt-12">
             <a 
               routerLink="/projects" 
-              class="inline-flex items-center bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 shadow-lg"
+              class="inline-flex items-center bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg"
             >
               Ver Todos los Proyectos
               <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -176,13 +176,13 @@ import { RouterModule } from '@angular/router';
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               routerLink="/projects" 
-              class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white hover:from-cyan-500 hover:to-blue-600 px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 shadow-lg"
+              class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white hover:from-cyan-500 hover:to-blue-600 px-8 py-4 rounded-xl font-semibold text-lg shadow-lg"
             >
               Ver Mi Trabajo
             </a>
             <a 
               routerLink="/contact" 
-              class="border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105"
+              class="border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-8 py-4 rounded-xl font-semibold text-lg"
             >
               Iniciar Conversación
             </a>

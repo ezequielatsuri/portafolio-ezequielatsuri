@@ -16,7 +16,7 @@ import { CommonModule } from '@angular/common';
         <!-- Skills Grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <!-- Frontend Development -->
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transform hover:-translate-y-2">
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl">
             <div class="text-center mb-8">
               <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                 <span class="text-white text-3xl">⚛️</span>
@@ -34,7 +34,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Backend Development -->
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transform hover:-translate-y-2">
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl">
             <div class="text-center mb-8">
               <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                 <span class="text-white text-3xl">🔧</span>
@@ -52,7 +52,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Database & Tools -->
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transform hover:-translate-y-2">
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl">
             <div class="text-center mb-8">
               <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                 <span class="text-white text-3xl">🗄️</span>

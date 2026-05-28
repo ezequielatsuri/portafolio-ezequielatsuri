@@ -15,7 +15,7 @@ import { CommonModule } from '@angular/common';
         
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Proyecto 1 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl border border-white/20">
             <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <!-- Carrusel Proyecto 1 -->
@@ -49,7 +49,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 2 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl border border-white/20">
             <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <!-- Carrusel Proyecto 2 -->
@@ -84,7 +84,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 3 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl border border-white/20">
             <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <span class="text-white text-4xl font-bold relative z-10">🔧</span>
@@ -113,7 +113,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 4 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl border border-white/20">
             <div class="h-48 bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <span class="text-white text-4xl font-bold relative z-10">✅</span>
@@ -143,7 +143,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 5 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl border border-white/20">
             <div class="h-48 bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <!-- Carrusel Proyecto 5 -->
@@ -179,7 +179,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 6 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl border border-white/20">
             <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <span class="text-white text-4xl font-bold relative z-10">🏥</span>

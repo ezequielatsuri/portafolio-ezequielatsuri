@@ -51,7 +51,7 @@ import { RouterModule } from '@angular/router';
             <a 
               href="assets/doc/cv.pdf"
               target="_blank"
-              class="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-6 py-2 rounded-xl font-semibold transform hover:scale-105 shadow-lg inline-block"
+              class="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-6 py-2 rounded-xl font-semibold shadow-lg inline-block"
             >
               📄 Descargar CV
             </a>

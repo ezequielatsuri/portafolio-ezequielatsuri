@@ -52,13 +52,13 @@ import emailjs from '@emailjs/browser';
             <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-white/20">
               <h3 class="text-2xl font-bold text-white mb-6 text-center">Sígueme</h3>
               <div class="flex justify-center space-x-4">
-                <a href="https://www.linkedin.com/in/ezequielatsuri/" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transform hover:scale-110">
+                <a href="https://www.linkedin.com/in/ezequielatsuri/" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg">
                   <span class="text-lg font-bold">in</span>
                 </a>
-                <a href="https://github.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transform hover:scale-110">
+                <a href="https://github.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg">
                   <span class="text-lg font-bold">git</span>
                 </a>
-                <a href="https://x.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transform hover:scale-110">
+                <a href="https://x.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg">
                   <span class="text-lg font-bold">tw</span>
                 </a>
                 
@@ -146,7 +146,7 @@ import emailjs from '@emailjs/browser';
               <button 
                 type="submit"
                 [disabled]="contactForm.invalid || isLoading"
-                class="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transform hover:scale-105 shadow-lg"
+                class="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl shadow-lg"
               >
                 {{ isLoading ? 'Enviando...' : 'Enviar Mensaje' }}
               </button>
