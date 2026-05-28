@@ -15,13 +15,13 @@ import { CommonModule } from '@angular/common';
         
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <!-- Proyecto 1 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
             <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <!-- Carrusel Proyecto 1 -->
               <ng-container *ngIf="proyecto1Images.length > 0">
                 <button (click)="prevImage(1)" class="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/30 hover:bg-white/60 rounded-full p-1"><span class="text-2xl">&#8592;</span></button>
-                <img [src]="proyecto1Images[proyecto1Index]" alt="Proyecto 1" class="h-40 rounded-xl shadow-lg z-10 relative transition-all duration-300" style="object-fit:cover; max-width:80%">
+                <img [src]="proyecto1Images[proyecto1Index]" alt="Proyecto 1" class="h-40 rounded-xl shadow-lg z-10 relative" style="object-fit:cover; max-width:80%">
                 <button (click)="nextImage(1)" class="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/30 hover:bg-white/60 rounded-full p-1"><span class="text-2xl">&#8594;</span></button>
               </ng-container>
             </div>
@@ -40,7 +40,7 @@ import { CommonModule } from '@angular/common';
                   href="https://github.com/ezequielatsuri/web_app_services" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold text-center"
                 >
                   Código
                 </a>
@@ -49,13 +49,13 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 2 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
             <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <!-- Carrusel Proyecto 2 -->
               <ng-container *ngIf="proyecto2Images.length > 0">
                 <button (click)="prevImage(2)" class="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/30 hover:bg-white/60 rounded-full p-1"><span class="text-2xl">&#8592;</span></button>
-                <img [src]="proyecto2Images[proyecto2Index]" alt="Proyecto 2" class="h-40 rounded-xl shadow-lg z-10 relative transition-all duration-300" style="object-fit:cover; max-width:80%">
+                <img [src]="proyecto2Images[proyecto2Index]" alt="Proyecto 2" class="h-40 rounded-xl shadow-lg z-10 relative" style="object-fit:cover; max-width:80%">
                 <button (click)="nextImage(2)" class="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/30 hover:bg-white/60 rounded-full p-1"><span class="text-2xl">&#8594;</span></button>
               </ng-container>
             </div>
@@ -75,7 +75,7 @@ import { CommonModule } from '@angular/common';
                   href="https://github.com/ezequielatsuri/chatAplication" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold text-center"
                 >
                   Código
                 </a>
@@ -84,7 +84,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 3 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
             <div class="h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <span class="text-white text-4xl font-bold relative z-10">🔧</span>
@@ -104,7 +104,7 @@ import { CommonModule } from '@angular/common';
                   href="https://github.com/ezequielatsuri/TallerMecanico" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold text-center"
                 >
                   Código
                 </a>
@@ -113,7 +113,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 4 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
             <div class="h-48 bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <span class="text-white text-4xl font-bold relative z-10">✅</span>
@@ -133,7 +133,7 @@ import { CommonModule } from '@angular/common';
                   href="https://github.com/ezequielatsuri/To-do-list" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold text-center"
                 >
                   Código
                 </a>
@@ -143,13 +143,13 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 5 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
             <div class="h-48 bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <!-- Carrusel Proyecto 5 -->
               <ng-container *ngIf="proyecto5Images.length > 0">
                 <button (click)="prevImage(5)" class="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/30 hover:bg-white/60 rounded-full p-1"><span class="text-2xl">&#8592;</span></button>
-                <img [src]="proyecto5Images[proyecto5Index]" alt="Proyecto 5" class="h-40 rounded-xl shadow-lg z-10 relative transition-all duration-300" style="object-fit:cover; max-width:80%">
+                <img [src]="proyecto5Images[proyecto5Index]" alt="Proyecto 5" class="h-40 rounded-xl shadow-lg z-10 relative" style="object-fit:cover; max-width:80%">
                 <button (click)="nextImage(5)" class="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/30 hover:bg-white/60 rounded-full p-1"><span class="text-2xl">&#8594;</span></button>
               </ng-container>
             </div>
@@ -170,7 +170,7 @@ import { CommonModule } from '@angular/common';
                   href="https://github.com/ezequielatsuri/dashboard-dinamico" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold text-center"
                 >
                   Código
                 </a>
@@ -179,7 +179,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Proyecto 6 -->
-          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-white/20">
+          <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transform hover:-translate-y-2 border border-white/20">
             <div class="h-48 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center relative overflow-hidden">
               <div class="absolute inset-0 bg-black bg-opacity-20"></div>
               <span class="text-white text-4xl font-bold relative z-10">🏥</span>
@@ -201,7 +201,7 @@ import { CommonModule } from '@angular/common';
                   href="https://github.com/ezequielatsuri/App-Salud" 
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold transition-all duration-300 text-center"
+                  class="flex-1 border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-4 py-3 rounded-xl font-semibold text-center"
                 >
                   Código
                 </a>

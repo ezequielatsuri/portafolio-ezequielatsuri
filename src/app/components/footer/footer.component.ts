@@ -23,13 +23,13 @@ import { RouterModule } from '@angular/router';
               Transformando ideas en realidades a través del código.
             </p>
             <div class="flex space-x-4">
-              <a href="https://www.linkedin.com/in/ezequielatsuri/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors">
+              <a href="https://www.linkedin.com/in/ezequielatsuri/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700">
                 <span class="text-sm font-bold">in</span>
               </a>
-              <a href="https://x.com/ezequielatsuri" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-400 text-white rounded-lg flex items-center justify-center hover:bg-blue-500 transition-colors">
+              <a href="https://x.com/ezequielatsuri" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-blue-400 text-white rounded-lg flex items-center justify-center hover:bg-blue-500">
                 <span class="text-sm font-bold">tw</span>
               </a>
-              <a href="https://github.com/ezequielatsuri" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-green-500 text-white rounded-lg flex items-center justify-center hover:bg-red-600 transition-colors">
+              <a href="https://github.com/ezequielatsuri" target="_blank" rel="noopener noreferrer" class="w-10 h-10 bg-green-500 text-white rounded-lg flex items-center justify-center hover:bg-red-600">
                 <span class="text-sm font-bold">git</span>
               </a>
             </div>
@@ -40,19 +40,19 @@ import { RouterModule } from '@angular/router';
             <h4 class="text-lg font-semibold mb-6">Enlaces Rápidos</h4>
             <ul class="space-y-3 ">
               <li>
-                <a routerLink="/" class="text-white hover:text-white transition-colors">Inicio</a>
+                <a routerLink="/" class="text-white hover:text-white">Inicio</a>
               </li>
               <li>
-                <a routerLink="/about" class="text-white hover:text-white transition-colors">Sobre Mí</a>
+                <a routerLink="/about" class="text-white hover:text-white">Sobre Mí</a>
               </li>
               <li>
-                <a routerLink="/skills" class="text-white hover:text-white transition-colors">Habilidades</a>
+                <a routerLink="/skills" class="text-white hover:text-white">Habilidades</a>
               </li>
               <li>
-                <a routerLink="/projects" class="text-white hover:text-white transition-colors">Proyectos</a>
+                <a routerLink="/projects" class="text-white hover:text-white">Proyectos</a>
               </li>
               <li>
-                <a routerLink="/contact" class="text-white hover:text-white transition-colors">Contacto</a>
+                <a routerLink="/contact" class="text-white hover:text-white">Contacto</a>
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ import { RouterModule } from '@angular/router';
               © 2025 Ezequiel Atsuri. Todos los derechos reservados.
             </p>
             <div class="flex space-x-6 mt-4 md:mt-0">
-              <a routerLink="/privacy" class="text-gray-400 hover:text-white text-sm transition-colors">Política de Privacidad</a>
+              <a routerLink="/privacy" class="text-gray-400 hover:text-white text-sm">Política de Privacidad</a>
             </div>
           </div>
         </div>

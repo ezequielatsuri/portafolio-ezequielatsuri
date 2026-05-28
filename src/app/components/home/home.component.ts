@@ -32,13 +32,13 @@ import { RouterModule } from '@angular/router';
               <div class="flex flex-col sm:flex-row gap-4">
                 <a 
                   routerLink="/projects" 
-                  class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-center"
+                  class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 shadow-lg hover:shadow-xl text-center"
                 >
                   Ver Proyectos
                 </a>
                 <a 
                   routerLink="/contact" 
-                  class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 text-center"
+                  class="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 text-center"
                 >
                   Contactar
                 </a>
@@ -57,16 +57,16 @@ import { RouterModule } from '@angular/router';
                     <p class="text-blue-100">Desarrollador Full Stack</p>
                   </div>
                   <div class="flex justify-center space-x-4">
-                    <div class="w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
-                    <div class="w-3 h-3 bg-blue-400 rounded-full animate-pulse"></div>
-                    <div class="w-3 h-3 bg-blue-300 rounded-full animate-pulse"></div>
+                    <div class="w-3 h-3 bg-cyan-400 rounded-full"></div>
+                    <div class="w-3 h-3 bg-blue-400 rounded-full"></div>
+                    <div class="w-3 h-3 bg-blue-300 rounded-full"></div>
                   </div>
                 </div>
               </div>
               
               <!-- Floating Elements -->
-              <div class="absolute -top-4 -right-4 w-8 h-8 bg-cyan-300 rounded-full opacity-60 animate-bounce"></div>
-              <div class="absolute -bottom-4 -left-4 w-6 h-6 bg-blue-400 rounded-full opacity-60 animate-bounce"></div>
+              <div class="absolute -top-4 -right-4 w-8 h-8 bg-cyan-300 rounded-full opacity-60"></div>
+              <div class="absolute -bottom-4 -left-4 w-6 h-6 bg-blue-400 rounded-full opacity-60"></div>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ import { RouterModule } from '@angular/router';
           
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Project 1 -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2">
               <div class="bg-gradient-to-br from-blue-500 to-purple-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-6xl mb-4">💼</div>
@@ -98,14 +98,14 @@ import { RouterModule } from '@angular/router';
                   <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">Spring Boot</span>
                   <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">MySQL</span>
                 </div>
-                <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors">
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800">
                   Ver Proyecto →
                 </a>
               </div>
             </div>
 
             <!-- Project 2 -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2">
               <div class="bg-gradient-to-br from-green-500 to-teal-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-6xl mb-4">💬</div>
@@ -120,14 +120,14 @@ import { RouterModule } from '@angular/router';
                   <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">React</span>
                   <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">MySQL</span>
                 </div>
-                <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors">
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800">
                   Ver Proyecto →
                 </a>
               </div>
             </div>
 
             <!-- Project 3 -->
-            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2">
               <div class="bg-gradient-to-br from-purple-500 to-pink-600 h-48 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-6xl mb-4">🔧</div>
@@ -142,7 +142,7 @@ import { RouterModule } from '@angular/router';
                   <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full">Blade</span>
                   <span class="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">MySQL</span>
                 </div>
-                <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800 transition-colors">
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:text-blue-800">
                   Ver Proyecto →
                 </a>
               </div>
@@ -152,7 +152,7 @@ import { RouterModule } from '@angular/router';
           <div class="text-center mt-12">
             <a 
               routerLink="/projects" 
-              class="inline-flex items-center bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              class="inline-flex items-center bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 shadow-lg"
             >
               Ver Todos los Proyectos
               <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -176,13 +176,13 @@ import { RouterModule } from '@angular/router';
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               routerLink="/projects" 
-              class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white hover:from-cyan-500 hover:to-blue-600 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              class="bg-gradient-to-r from-cyan-400 to-blue-500 text-white hover:from-cyan-500 hover:to-blue-600 px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105 shadow-lg"
             >
               Ver Mi Trabajo
             </a>
             <a 
               routerLink="/contact" 
-              class="border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105"
+              class="border-2 border-cyan-300 text-cyan-300 hover:bg-cyan-300 hover:text-blue-900 px-8 py-4 rounded-xl font-semibold text-lg transform hover:scale-105"
             >
               Iniciar Conversación
             </a>

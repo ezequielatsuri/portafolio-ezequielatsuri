@@ -16,7 +16,7 @@ import { CommonModule } from '@angular/common';
         <!-- Skills Grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <!-- Frontend Development -->
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transform hover:-translate-y-2">
             <div class="text-center mb-8">
               <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                 <span class="text-white text-3xl">⚛️</span>
@@ -34,7 +34,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Backend Development -->
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transform hover:-translate-y-2">
             <div class="text-center mb-8">
               <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                 <span class="text-white text-3xl">🔧</span>
@@ -52,7 +52,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Database & Tools -->
-          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/20 hover:shadow-2xl transform hover:-translate-y-2">
             <div class="text-center mb-8">
               <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl mx-auto mb-4 flex items-center justify-center">
                 <span class="text-white text-3xl">🗄️</span>
@@ -74,23 +74,23 @@ import { CommonModule } from '@angular/common';
           <h3 class="text-3xl font-bold text-white text-center mb-8">Otras Habilidades</h3>
           <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-4xl mx-auto">
             
-            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20 transition-all duration-300">
+            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20">
               <div class="text-2xl mb-2">📱</div>
               <div class="text-blue-100 text-sm font-medium">Responsive Design</div>
             </div>
-            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20 transition-all duration-300">
+            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20">
               <div class="text-2xl mb-2">🔒</div>
               <div class="text-blue-100 text-sm font-medium">Security</div>
             </div>
-            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20 transition-all duration-300">
+            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20">
               <div class="text-2xl mb-2">⚡</div>
               <div class="text-blue-100 text-sm font-medium">Performance</div>
             </div>
-            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20 transition-all duration-300">
+            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20">
               <div class="text-2xl mb-2">🤝</div>
               <div class="text-blue-100 text-sm font-medium">Team Work</div>
             </div>
-            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20 transition-all duration-300">
+            <div class="bg-white/10 p-4 rounded-xl text-center hover:bg-white/20">
               <div class="text-2xl mb-2">📚</div>
               <div class="text-blue-100 text-sm font-medium">Learning</div>
             </div>

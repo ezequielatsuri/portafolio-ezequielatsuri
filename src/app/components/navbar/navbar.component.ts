@@ -17,7 +17,7 @@ import { RouterModule } from '@angular/router';
             </a>
             <!-- Status Indicator -->
             <div class="hidden md:flex items-center space-x-2 bg-green-100 px-3 py-1 rounded-full">
-              <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+              <div class="w-2 h-2 bg-green-500 rounded-full"></div>
               <span class="text-green-700 text-sm font-medium">Disponible</span>
             </div>
           </div>
@@ -25,23 +25,23 @@ import { RouterModule } from '@angular/router';
           <!-- Desktop Navigation -->
           <div class="hidden md:flex space-x-8">
             <a routerLink="/" routerLinkActive="text-blue-600 font-semibold" 
-               class="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium">
+               class="text-gray-700 hover:text-blue-600 font-medium">
               Inicio
             </a>
             <a routerLink="/about" routerLinkActive="text-blue-600 font-semibold" 
-               class="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium">
+               class="text-gray-700 hover:text-blue-600 font-medium">
               Sobre Mí
             </a>
             <a routerLink="/skills" routerLinkActive="text-blue-600 font-semibold" 
-               class="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium">
+               class="text-gray-700 hover:text-blue-600 font-medium">
               Habilidades
             </a>
             <a routerLink="/projects" routerLinkActive="text-blue-600 font-semibold" 
-               class="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium">
+               class="text-gray-700 hover:text-blue-600 font-medium">
               Proyectos
             </a>
             <a routerLink="/contact" routerLinkActive="text-blue-600 font-semibold" 
-               class="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium">
+               class="text-gray-700 hover:text-blue-600 font-medium">
               Contacto
             </a>
           </div>
@@ -51,7 +51,7 @@ import { RouterModule } from '@angular/router';
             <a 
               href="assets/doc/cv.pdf"
               target="_blank"
-              class="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-6 py-2 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
+              class="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-6 py-2 rounded-xl font-semibold transform hover:scale-105 shadow-lg inline-block"
             >
               📄 Descargar CV
             </a>
@@ -61,7 +61,7 @@ import { RouterModule } from '@angular/router';
           <div class="md:hidden">
             <button 
               (click)="toggleMobileMenu()"
-              class="text-gray-700 hover:text-blue-600 focus:outline-none transition-colors"
+              class="text-gray-700 hover:text-blue-600 focus:outline-none"
             >
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -75,34 +75,34 @@ import { RouterModule } from '@angular/router';
           <div class="px-2 pt-2 pb-3 space-y-1 bg-white/95 backdrop-blur-md border-t border-blue-100">
             <a routerLink="/" routerLinkActive="text-blue-600 font-semibold"
                (click)="onMobileNavClick()"
-               class="block px-3 py-3 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-blue-50">
+               class="block px-3 py-3 text-gray-700 hover:text-blue-600 font-medium rounded-lg hover:bg-blue-50">
               Inicio
             </a>
             <a routerLink="/about" routerLinkActive="text-blue-600 font-semibold"
                (click)="onMobileNavClick()"
-               class="block px-3 py-3 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-blue-50">
+               class="block px-3 py-3 text-gray-700 hover:text-blue-600 font-medium rounded-lg hover:bg-blue-50">
               Sobre Mí
             </a>
             <a routerLink="/skills" routerLinkActive="text-blue-600 font-semibold"
                (click)="onMobileNavClick()"
-               class="block px-3 py-3 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-blue-50">
+               class="block px-3 py-3 text-gray-700 hover:text-blue-600 font-medium rounded-lg hover:bg-blue-50">
               Habilidades
             </a>
             <a routerLink="/projects" routerLinkActive="text-blue-600 font-semibold"
                (click)="onMobileNavClick()"
-               class="block px-3 py-3 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-blue-50">
+               class="block px-3 py-3 text-gray-700 hover:text-blue-600 font-medium rounded-lg hover:bg-blue-50">
               Proyectos
             </a>
             <a routerLink="/contact" routerLinkActive="text-blue-600 font-semibold"
                (click)="onMobileNavClick()"
-               class="block px-3 py-3 text-gray-700 hover:text-blue-600 transition-colors font-medium rounded-lg hover:bg-blue-50">
+               class="block px-3 py-3 text-gray-700 hover:text-blue-600 font-medium rounded-lg hover:bg-blue-50">
               Contacto
             </a>
             <div class="px-3 py-3">
               <a 
                 href="assets/doc/cv.pdf"
                 target="_blank"
-                class="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 inline-block text-center"
+                class="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white px-6 py-3 rounded-xl font-semibold inline-block text-center"
               >
                 📄 Descargar CV
               </a>
@@ -126,6 +126,6 @@ export class NavbarComponent {
 
   onMobileNavClick() {
     this.mobileMenuOpen = false;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0 });
   }
 }

@@ -28,7 +28,7 @@ import emailjs from '@emailjs/browser';
             </div>
             
             <div class="space-y-6">
-              <div class="flex items-center p-6 bg-white/10 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300">
+              <div class="flex items-center p-6 bg-white/10 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 hover:shadow-xl">
                 <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl flex items-center justify-center mr-6">
                   <span class="text-white text-2xl">📧</span>
                 </div>
@@ -38,7 +38,7 @@ import emailjs from '@emailjs/browser';
                 </div>
               </div>
               
-              <div class="flex items-center p-6 bg-white/10 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 hover:shadow-xl transition-all duration-300">
+              <div class="flex items-center p-6 bg-white/10 backdrop-blur-md rounded-2xl shadow-lg border border-white/20 hover:shadow-xl">
                 <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl flex items-center justify-center mr-6">
                   <span class="text-white text-2xl">📍</span>
                 </div>
@@ -52,13 +52,13 @@ import emailjs from '@emailjs/browser';
             <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-white/20">
               <h3 class="text-2xl font-bold text-white mb-6 text-center">Sígueme</h3>
               <div class="flex justify-center space-x-4">
-                <a href="https://www.linkedin.com/in/ezequielatsuri/" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transition-all duration-300 transform hover:scale-110">
+                <a href="https://www.linkedin.com/in/ezequielatsuri/" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transform hover:scale-110">
                   <span class="text-lg font-bold">in</span>
                 </a>
-                <a href="https://github.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transition-all duration-300 transform hover:scale-110">
+                <a href="https://github.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transform hover:scale-110">
                   <span class="text-lg font-bold">git</span>
                 </a>
-                <a href="https://x.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transition-all duration-300 transform hover:scale-110">
+                <a href="https://x.com/ezequielatsuri" target="_blank" class="w-14 h-14 bg-gradient-to-br from-blue-600 to-cyan-500 text-white rounded-2xl flex items-center justify-center hover:shadow-lg transform hover:scale-110">
                   <span class="text-lg font-bold">tw</span>
                 </a>
                 
@@ -97,7 +97,7 @@ import emailjs from '@emailjs/browser';
                     name="name"
                     [(ngModel)]="formData.name"
                     required
-                    class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500 transition-all duration-300"
+                    class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500"
                     placeholder="Tu nombre completo"
                   >
                 </div>
@@ -111,7 +111,7 @@ import emailjs from '@emailjs/browser';
                     [(ngModel)]="formData.email"
                     required
                     email
-                    class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500 transition-all duration-300"
+                    class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500"
                     placeholder="tu@email.com"
                   >
                 </div>
@@ -125,7 +125,7 @@ import emailjs from '@emailjs/browser';
                   name="subject"
                   [(ngModel)]="formData.subject"
                   required
-                  class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500 transition-all duration-300"
+                  class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500"
                   placeholder="¿En qué puedo ayudarte?"
                 >
               </div>
@@ -138,7 +138,7 @@ import emailjs from '@emailjs/browser';
                   [(ngModel)]="formData.message"
                   required
                   rows="6"
-                  class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500 transition-all duration-300 resize-none"
+                  class="w-full px-4 py-3 bg-white/90 backdrop-blur-sm border-2 border-white/30 rounded-xl focus:ring-2 focus:ring-cyan-400 focus:border-cyan-400 text-gray-800 placeholder-gray-500 resize-none"
                   placeholder="Cuéntame sobre tu proyecto, ideas o cualquier consulta que tengas..."
                 ></textarea>
               </div>
@@ -146,7 +146,7 @@ import emailjs from '@emailjs/browser';
               <button 
                 type="submit"
                 [disabled]="contactForm.invalid || isLoading"
-                class="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg"
+                class="w-full bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transform hover:scale-105 shadow-lg"
               >
                 {{ isLoading ? 'Enviando...' : 'Enviar Mensaje' }}
               </button>
